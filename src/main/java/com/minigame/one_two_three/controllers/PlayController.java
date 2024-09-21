@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 @RequiredArgsConstructor
 public class PlayController {
     private final RandomObject randomObject;
-    @GetMapping("/chose-option")
+    @PostMapping("/chose-option")
     public ResponseEntity<Results> choseOption(@RequestBody Options opt) {
         return ResponseEntity.status(200).body(randomObject.GetRandomResult(opt));
     }
