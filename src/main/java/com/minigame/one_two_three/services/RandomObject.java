@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 import java.util.Random;
 @Service
 // 0 = bua, 1 = keo, 2 = bao
+// Hello toi se vao jenkins
 public class RandomObject {
     public Results GetRandomResult(Options opt){
         Random rnd = new Random();
