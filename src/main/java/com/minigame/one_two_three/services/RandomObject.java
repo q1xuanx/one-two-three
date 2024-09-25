@@ -16,7 +16,7 @@ public class RandomObject {
         if (opt.timesPlay == 3){
             if (opt.chose == 0){
                 res.setUserChose(opt.chose);
-                res.setBotChose(2);
+                res.setBotChose(2)
                 res.setWinners("BOT");
             }else if (opt.chose == 1){
                 res.setUserChose(opt.chose);
