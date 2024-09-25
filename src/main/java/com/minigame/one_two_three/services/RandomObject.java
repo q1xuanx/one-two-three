@@ -12,7 +12,7 @@ public class RandomObject {
     public Results GetRandomResult(Options opt){
         Random rnd = new Random();
         int resOfRandom = rnd.nextInt(3);
-        //Results res = new Results();
+        Results res = new Results();
         if (opt.timesPlay == 3){
             if (opt.chose == 0){
                 res.setUserChose(opt.chose);
