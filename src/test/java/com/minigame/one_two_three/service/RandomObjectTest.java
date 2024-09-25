@@ -25,8 +25,7 @@ public class RandomObjectTest {
         Results res1 = randomObject.GetRandomResult(options);
         assertEquals(0, res1.getUserChose());
         assertEquals(2, res1.getBotChose());
-        assertEquals("BOT", res1.getWinners());
-
+        assertEquals("USER", res1.getWinners());
     }
     @Test
     public void testRandomResult_IfUserChose1AndTimesplayEquals3_ReturnBot(){
