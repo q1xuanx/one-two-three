@@ -14,12 +14,10 @@ public class Hooks {
     @Before
     public void Before()
     {
-        System.setProperty("webdriver.chrome.driver", "src/test/java/com/minigame/one_two_three/chromedriver-win64/chromedriver.exe");
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
     }
-
     @After
     public void After(Scenario scenario)
     {

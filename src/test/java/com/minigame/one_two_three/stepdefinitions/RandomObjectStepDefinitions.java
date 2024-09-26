@@ -11,12 +11,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class RandomObjectStepDefinitions {
-    WebDriver driver;
+    WebDriver driver = Hooks.driver;
     @Given("The list button is show")
     public void the_list_button_is_show() {
-        System.setProperty("webdriver.chrome.driver", "src/test/java/com/minigame/one_two_three/chromedriver-win64/chromedriver.exe");
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
         String baseUrl = "http://localhost:3000/";
         driver.get(baseUrl);
     }
