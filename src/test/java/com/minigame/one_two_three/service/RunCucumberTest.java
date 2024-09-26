@@ -1,4 +1,4 @@
-package com.minigame.one_two_three.onetwothreecucumber;
+package com.minigame.one_two_three.service;
 
 
 import io.cucumber.junit.Cucumber;
