@@ -3,6 +3,7 @@ package com.minigame.one_two_three.services;
 import com.minigame.one_two_three.models.Options;
 import com.minigame.one_two_three.models.Results;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 import java.util.Random;
 @Service

@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/play")
 @RequiredArgsConstructor
+@CrossOrigin("http://localhost:8081")
 public class PlayController {
     private final RandomObject randomObject;
     @PostMapping("/chose-option")
