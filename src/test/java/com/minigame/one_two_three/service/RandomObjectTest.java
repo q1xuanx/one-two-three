@@ -13,6 +13,7 @@ public class RandomObjectTest {
     @InjectMocks
     RandomObject randomObject;
     //InjectMock neu repo service co ke thua jpa
+    //Test webhook config
     @Test
     public void testRandomResult_IfUserChose0AndTimesplayEquals3_ReturnBot(){
         Options options = new Options();
