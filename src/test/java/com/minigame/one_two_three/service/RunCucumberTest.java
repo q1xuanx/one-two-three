@@ -11,5 +11,4 @@ import org.junit.runner.RunWith;
     features = "src/test/java/com/minigame/one_two_three/feature/randomobject/randomobject.feature"
 )
 public class RunCucumberTest {
-    //TEST COMMIT
 }
