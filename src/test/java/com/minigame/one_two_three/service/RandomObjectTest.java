@@ -15,8 +15,6 @@ public class RandomObjectTest {
     @Test
     public void testRandomResult_IfUserChose0AndTimesplayEquals3_ReturnBot(){
         Options options = new Options();
-        //Test case 1
-        // user chose 0
         options.setTimesPlay(3);
         options.setChose(0);
         Results res1 = randomObject.GetRandomResult(options);
